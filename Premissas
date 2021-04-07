@@ -1,0 +1,17 @@
+Realizar testes de integração para a aplicação abaixo.
+O sistema deve ter uma classe/tabela chamada Boleto com os campos abaixo: 
+	int idBoleto (auto_increment, not null)
+	float valor	 (not null)
+	String sacado (not null)
+
+
+Criar uma classe para acessar o banco de dados,
+com as operações ( insert, delete, select).
+Criar uma classe de TI, das funções ( insert, delete e select).
+
+
+
+Colunas na tabela "boleto" (atenção na caixa baixa):
+idboleto integer auto_increment, notnull
+valor bigint notnull
+sacado text notnull
